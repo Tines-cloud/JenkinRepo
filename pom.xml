@@ -14,7 +14,6 @@
 		<jdk.level>1.7</jdk.level>
 	</properties>
 	<dependencies>
-
 		<dependency>
 			<groupId>javax.xml.bind</groupId>
 			<artifactId>jaxb-api</artifactId>
