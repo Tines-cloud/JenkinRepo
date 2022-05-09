@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Default suite]">
+  <test parallel="none" name="Default test(failed)">
+    <classes>
+      <class name="com.selenium.SampleSelenium.SampleSelGoogleTest1">
+        <methods>
+          <include name="setup"/>
+          <include name="sampleSelGoogleTest1"/>
+        </methods>
+      </class> <!-- com.selenium.SampleSelenium.SampleSelGoogleTest1 -->
+      <class name="com.selenium.SampleSelenium.SampleSelGoogleTest2">
+        <methods>
+          <include name="sampleSelGoogleTest2"/>
+        </methods>
+      </class> <!-- com.selenium.SampleSelenium.SampleSelGoogleTest2 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
