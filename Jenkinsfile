@@ -4,7 +4,7 @@ pipeline {
 	         stage ('GIT checkout'){
 	             steps {
 	                 script  {					       
-					       git "https://github.com/Tines-cloud/JenkinRepo.git"
+					       git "https://github.com/Tines-cloud/JenkinRepo"
 		                   } 
 		           }
 		       }
